@@ -1,0 +1,16 @@
+{
+  "image": "node:20-alpine",
+  "mounts": [
+    "target=${containerWorkspaceFolder}/node_modules,source=dev-steps-volume"
+  ],
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "bierner.markdown-checkbox",
+        "shd101wyy.markdown-preview-enhanced",
+        "bradlc.vscode-tailwindcss"
+      ]
+    }
+  },
+  "onCreateCommand": "npm install"
+}
