@@ -1,6 +1,4 @@
 export default function RecruitmentPage() {
-  const cardClass = "bg-white rounded-xl p-5 shadow-md"
-
   return (
     <div>
       <header className="bg-gradient-to-br from-indigo-50 to-white text-slate-900 py-10 text-center">
@@ -12,7 +10,7 @@ export default function RecruitmentPage() {
 
       <main className="max-w-5xl my-7 mx-auto px-4 grid md:grid-cols-[1fr_360px] gap-5">
         <section className="grid gap-4">
-          <article className={cardClass}>
+          <article className="bg-white rounded-xl p-5 shadow-md">
             <h2>募集ポジション</h2>
             <ul>
               <li>フロントエンドエンジニア（モバイル / Web）</li>
@@ -21,7 +19,7 @@ export default function RecruitmentPage() {
             </ul>
           </article>
 
-          <article className={cardClass}>
+          <article className="bg-white rounded-xl p-5 shadow-md">
             <h2>仕事内容（現体制）</h2>
             <p>モバイルアプリの機能実装、バックエンド API の設計・実装、インフラの構築・運用などをチームで担当します。少人数で幅広く手を動かすフェーズです。</p>
             <ul>
@@ -32,7 +30,7 @@ export default function RecruitmentPage() {
             </ul>
           </article>
 
-          <article className={cardClass}>
+          <article className="bg-white rounded-xl p-5 shadow-md">
             <h2>求める人物像</h2>
             <ul>
               <li>学習意欲が高く、柔軟に技術選定できる方</li>
@@ -47,7 +45,7 @@ export default function RecruitmentPage() {
           <p>導入先は病院。ユーザーに近い価値を少人数で素早く届けられる段階です。裁量が大きく、プロダクトの仕様決定にも関われます。</p>
         </section>
 
-        <aside className={`${cardClass} self-start`}>
+        <aside className="bg-white rounded-xl p-5 shadow-md self-start">
           <h2>会社の現状と働き方</h2>
           <p className="text-slate-500">現状: まだ法人化前で、学生や前職メンバーによるチームで開発を進めています。法人化は 2025 年秋を予定しています。</p>
 
